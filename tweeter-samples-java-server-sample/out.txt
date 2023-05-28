@@ -1,0 +1,577 @@
+ECHO is off.
+{
+    "FunctionName": "login",
+    "FunctionArn": "arn:aws:lambda:us-west-2:876591137690:function:login",
+    "Runtime": "java11",
+    "Role": "arn:aws:iam::876591137690:role/tweeter340",
+    "Handler": "edu.byu.cs.tweeter.server.lambda.LoginHandler::handleRequest",
+    "CodeSize": 20324635,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 512,
+    "LastModified": "2023-04-11T01:37:27.000+0000",
+    "CodeSha256": "i7QFmn1Fy2zy17Rhpcbwo64oZOGID1/N99n5D75iMbw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "05224074-24f5-4e49-9c37-e675b84e5c81",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-west-2::runtime:9a1e27517b4463e4aed1fad35f47b787a5106d2ed775359e46836ccd433c7e45"
+    }
+}
+{
+    "FunctionName": "RegisterHandler",
+    "FunctionArn": "arn:aws:lambda:us-west-2:876591137690:function:RegisterHandler",
+    "Runtime": "java11",
+    "Role": "arn:aws:iam::876591137690:role/tweeter340",
+    "Handler": "edu.byu.cs.tweeter.server.lambda.RegisterHandler::handleRequest",
+    "CodeSize": 20324635,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 512,
+    "LastModified": "2023-04-11T01:37:32.000+0000",
+    "CodeSha256": "i7QFmn1Fy2zy17Rhpcbwo64oZOGID1/N99n5D75iMbw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "4c3a23ae-cce2-4349-b099-b8ff551ead69",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-west-2::runtime:9a1e27517b4463e4aed1fad35f47b787a5106d2ed775359e46836ccd433c7e45"
+    }
+}
+{
+    "FunctionName": "FollowHandler",
+    "FunctionArn": "arn:aws:lambda:us-west-2:876591137690:function:FollowHandler",
+    "Runtime": "java11",
+    "Role": "arn:aws:iam::876591137690:role/tweeter340",
+    "Handler": "edu.byu.cs.tweeter.server.lambda.FollowHandler::handleRequest",
+    "CodeSize": 20324635,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 512,
+    "LastModified": "2023-04-11T01:37:37.000+0000",
+    "CodeSha256": "i7QFmn1Fy2zy17Rhpcbwo64oZOGID1/N99n5D75iMbw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "00cd9c71-c7eb-4dee-a94e-efb4778852a7",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-west-2::runtime:9a1e27517b4463e4aed1fad35f47b787a5106d2ed775359e46836ccd433c7e45"
+    }
+}
+{
+    "FunctionName": "UnfollowHandler",
+    "FunctionArn": "arn:aws:lambda:us-west-2:876591137690:function:UnfollowHandler",
+    "Runtime": "java11",
+    "Role": "arn:aws:iam::876591137690:role/tweeter340",
+    "Handler": "edu.byu.cs.tweeter.server.lambda.UnfollowHandler::handleRequest",
+    "CodeSize": 20324635,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 512,
+    "LastModified": "2023-04-11T01:37:42.000+0000",
+    "CodeSha256": "i7QFmn1Fy2zy17Rhpcbwo64oZOGID1/N99n5D75iMbw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "fe2b8192-9e96-46ed-9469-54871da97f07",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-west-2::runtime:9a1e27517b4463e4aed1fad35f47b787a5106d2ed775359e46836ccd433c7e45"
+    }
+}
+{
+    "FunctionName": "GetFollowersCountHandler",
+    "FunctionArn": "arn:aws:lambda:us-west-2:876591137690:function:GetFollowersCountHandler",
+    "Runtime": "java11",
+    "Role": "arn:aws:iam::876591137690:role/tweeter340",
+    "Handler": "edu.byu.cs.tweeter.server.lambda.GetFollowersCountHandler::handleRequest",
+    "CodeSize": 20324635,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 512,
+    "LastModified": "2023-04-11T01:37:51.000+0000",
+    "CodeSha256": "i7QFmn1Fy2zy17Rhpcbwo64oZOGID1/N99n5D75iMbw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "4a1c92fa-f612-43c9-b88d-462f1f297b2d",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-west-2::runtime:9a1e27517b4463e4aed1fad35f47b787a5106d2ed775359e46836ccd433c7e45"
+    }
+}
+{
+    "FunctionName": "GetFollowingCountHandler",
+    "FunctionArn": "arn:aws:lambda:us-west-2:876591137690:function:GetFollowingCountHandler",
+    "Runtime": "java11",
+    "Role": "arn:aws:iam::876591137690:role/tweeter340",
+    "Handler": "edu.byu.cs.tweeter.server.lambda.GetFollowingCountHandler::handleRequest",
+    "CodeSize": 20324635,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 512,
+    "LastModified": "2023-04-11T01:37:58.000+0000",
+    "CodeSha256": "i7QFmn1Fy2zy17Rhpcbwo64oZOGID1/N99n5D75iMbw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "7fcc6bc8-acf9-4ca7-8ef0-a252ccdf5026",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-west-2::runtime:9a1e27517b4463e4aed1fad35f47b787a5106d2ed775359e46836ccd433c7e45"
+    }
+}
+{
+    "FunctionName": "IsFollowerHandler",
+    "FunctionArn": "arn:aws:lambda:us-west-2:876591137690:function:IsFollowerHandler",
+    "Runtime": "java11",
+    "Role": "arn:aws:iam::876591137690:role/tweeter340",
+    "Handler": "edu.byu.cs.tweeter.server.lambda.IsFollowerHandler::handleRequest",
+    "CodeSize": 20324635,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 512,
+    "LastModified": "2023-04-11T01:38:14.000+0000",
+    "CodeSha256": "i7QFmn1Fy2zy17Rhpcbwo64oZOGID1/N99n5D75iMbw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "f453c082-62a0-4958-a0b8-9b2a2d7479ce",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-west-2::runtime:9a1e27517b4463e4aed1fad35f47b787a5106d2ed775359e46836ccd433c7e45"
+    }
+}
+{
+    "FunctionName": "LogoutHandler",
+    "FunctionArn": "arn:aws:lambda:us-west-2:876591137690:function:LogoutHandler",
+    "Runtime": "java11",
+    "Role": "arn:aws:iam::876591137690:role/tweeter340",
+    "Handler": "edu.byu.cs.tweeter.server.lambda.LogoutHandler::handleRequest",
+    "CodeSize": 20324635,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 512,
+    "LastModified": "2023-04-11T01:38:19.000+0000",
+    "CodeSha256": "i7QFmn1Fy2zy17Rhpcbwo64oZOGID1/N99n5D75iMbw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "cd13f676-dd64-4a2c-aa5c-ab6141f472b5",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-west-2::runtime:9a1e27517b4463e4aed1fad35f47b787a5106d2ed775359e46836ccd433c7e45"
+    }
+}
+{
+    "FunctionName": "GetFeedHandler",
+    "FunctionArn": "arn:aws:lambda:us-west-2:876591137690:function:GetFeedHandler",
+    "Runtime": "java11",
+    "Role": "arn:aws:iam::876591137690:role/tweeter340",
+    "Handler": "edu.byu.cs.tweeter.server.lambda.GetFeedHandler::handleRequest",
+    "CodeSize": 20324635,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 512,
+    "LastModified": "2023-04-11T01:38:24.000+0000",
+    "CodeSha256": "i7QFmn1Fy2zy17Rhpcbwo64oZOGID1/N99n5D75iMbw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "f8159a51-679c-4fe7-9e9d-19b335d57406",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-west-2::runtime:9a1e27517b4463e4aed1fad35f47b787a5106d2ed775359e46836ccd433c7e45"
+    }
+}
+{
+    "FunctionName": "GetStoryHandler",
+    "FunctionArn": "arn:aws:lambda:us-west-2:876591137690:function:GetStoryHandler",
+    "Runtime": "java11",
+    "Role": "arn:aws:iam::876591137690:role/tweeter340",
+    "Handler": "edu.byu.cs.tweeter.server.lambda.GetStoryHandler::handleRequest",
+    "CodeSize": 20324635,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 512,
+    "LastModified": "2023-04-11T01:38:28.000+0000",
+    "CodeSha256": "i7QFmn1Fy2zy17Rhpcbwo64oZOGID1/N99n5D75iMbw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "8e240eb0-d73e-404e-85ba-241b3d6ab332",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-west-2::runtime:9a1e27517b4463e4aed1fad35f47b787a5106d2ed775359e46836ccd433c7e45"
+    }
+}
+{
+    "FunctionName": "GetFollowingHandler",
+    "FunctionArn": "arn:aws:lambda:us-west-2:876591137690:function:GetFollowingHandler",
+    "Runtime": "java11",
+    "Role": "arn:aws:iam::876591137690:role/tweeter340",
+    "Handler": "edu.byu.cs.tweeter.server.lambda.GetFollowingHandler::handleRequest",
+    "CodeSize": 20324635,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 512,
+    "LastModified": "2023-04-11T01:38:33.000+0000",
+    "CodeSha256": "i7QFmn1Fy2zy17Rhpcbwo64oZOGID1/N99n5D75iMbw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "9404edea-6694-4552-abf5-4193ff8dfd0b",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-west-2::runtime:9a1e27517b4463e4aed1fad35f47b787a5106d2ed775359e46836ccd433c7e45"
+    }
+}
+{
+    "FunctionName": "GetFollowersHandler",
+    "FunctionArn": "arn:aws:lambda:us-west-2:876591137690:function:GetFollowersHandler",
+    "Runtime": "java11",
+    "Role": "arn:aws:iam::876591137690:role/tweeter340",
+    "Handler": "edu.byu.cs.tweeter.server.lambda.GetFollowersHandler::handleRequest",
+    "CodeSize": 20324635,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 512,
+    "LastModified": "2023-04-11T01:38:37.000+0000",
+    "CodeSha256": "i7QFmn1Fy2zy17Rhpcbwo64oZOGID1/N99n5D75iMbw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "c0d1e142-1d49-4cf7-98ad-fcd21ec0a24f",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-west-2::runtime:9a1e27517b4463e4aed1fad35f47b787a5106d2ed775359e46836ccd433c7e45"
+    }
+}
+{
+    "FunctionName": "GetUserHandler",
+    "FunctionArn": "arn:aws:lambda:us-west-2:876591137690:function:GetUserHandler",
+    "Runtime": "java11",
+    "Role": "arn:aws:iam::876591137690:role/tweeter340",
+    "Handler": "edu.byu.cs.tweeter.server.lambda.GetUserHandler::handleRequest",
+    "CodeSize": 20324635,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 512,
+    "LastModified": "2023-04-11T01:38:41.000+0000",
+    "CodeSha256": "i7QFmn1Fy2zy17Rhpcbwo64oZOGID1/N99n5D75iMbw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "4b15f74f-7238-4f52-bffc-1db13e1d37ec",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-west-2::runtime:9a1e27517b4463e4aed1fad35f47b787a5106d2ed775359e46836ccd433c7e45"
+    }
+}
+{
+    "FunctionName": "PostStatusHandler",
+    "FunctionArn": "arn:aws:lambda:us-west-2:876591137690:function:PostStatusHandler",
+    "Runtime": "java11",
+    "Role": "arn:aws:iam::876591137690:role/tweeter340",
+    "Handler": "edu.byu.cs.tweeter.server.lambda.PostStatusHandler::handleRequest",
+    "CodeSize": 20324635,
+    "Description": "",
+    "Timeout": 30,
+    "MemorySize": 512,
+    "LastModified": "2023-04-11T01:38:45.000+0000",
+    "CodeSha256": "i7QFmn1Fy2zy17Rhpcbwo64oZOGID1/N99n5D75iMbw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "e80665cf-2fc5-4cd1-83de-762ddc23ab70",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-west-2::runtime:9a1e27517b4463e4aed1fad35f47b787a5106d2ed775359e46836ccd433c7e45"
+    }
+}
+{
+    "FunctionName": "PostUpdateFeedMessagesHandler",
+    "FunctionArn": "arn:aws:lambda:us-west-2:876591137690:function:PostUpdateFeedMessagesHandler",
+    "Runtime": "java11",
+    "Role": "arn:aws:iam::876591137690:role/tweeter340",
+    "Handler": "edu.byu.cs.tweeter.server.lambda.PostUpdateFeedMessagesHandler::handleRequest",
+    "CodeSize": 20324635,
+    "Description": "",
+    "Timeout": 120,
+    "MemorySize": 512,
+    "LastModified": "2023-04-11T01:38:50.000+0000",
+    "CodeSha256": "i7QFmn1Fy2zy17Rhpcbwo64oZOGID1/N99n5D75iMbw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "da6fb7a7-727f-4809-afdb-403ea3b347d3",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-west-2::runtime:9a1e27517b4463e4aed1fad35f47b787a5106d2ed775359e46836ccd433c7e45"
+    }
+}
+{
+    "FunctionName": "UpdateFeedsHandler",
+    "FunctionArn": "arn:aws:lambda:us-west-2:876591137690:function:UpdateFeedsHandler",
+    "Runtime": "java11",
+    "Role": "arn:aws:iam::876591137690:role/tweeter340",
+    "Handler": "edu.byu.cs.tweeter.server.lambda.UpdateFeedsHandler::handleRequest",
+    "CodeSize": 20324635,
+    "Description": "",
+    "Timeout": 120,
+    "MemorySize": 512,
+    "LastModified": "2023-04-11T01:39:00.000+0000",
+    "CodeSha256": "i7QFmn1Fy2zy17Rhpcbwo64oZOGID1/N99n5D75iMbw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "87fbfa39-4699-4af5-9870-895e0ceb1095",
+    "State": "Active",
+    "LastUpdateStatus": "InProgress",
+    "LastUpdateStatusReason": "The function is being created.",
+    "LastUpdateStatusReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:us-west-2::runtime:9a1e27517b4463e4aed1fad35f47b787a5106d2ed775359e46836ccd433c7e45"
+    }
+}
